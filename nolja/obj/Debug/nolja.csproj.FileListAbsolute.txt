@@ -1,0 +1,14 @@
+C:\GitHub\nolja\nolja\bin\Debug\nolja.exe.config
+C:\GitHub\nolja\nolja\bin\Debug\nolja.exe
+C:\GitHub\nolja\nolja\bin\Debug\nolja.pdb
+C:\GitHub\nolja\nolja\obj\Debug\nolja.csprojResolveAssemblyReference.cache
+C:\GitHub\nolja\nolja\obj\Debug\MainWindow.g.cs
+C:\GitHub\nolja\nolja\obj\Debug\App.g.cs
+C:\GitHub\nolja\nolja\obj\Debug\nolja_MarkupCompile.cache
+C:\GitHub\nolja\nolja\obj\Debug\nolja_MarkupCompile.lref
+C:\GitHub\nolja\nolja\obj\Debug\MainWindow.baml
+C:\GitHub\nolja\nolja\obj\Debug\nolja.g.resources
+C:\GitHub\nolja\nolja\obj\Debug\nolja.Properties.Resources.resources
+C:\GitHub\nolja\nolja\obj\Debug\nolja.csproj.GenerateResource.Cache
+C:\GitHub\nolja\nolja\obj\Debug\nolja.exe
+C:\GitHub\nolja\nolja\obj\Debug\nolja.pdb
