@@ -6,16 +6,23 @@
         xmlns:local="clr-namespace:nolja"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="410">
-    <StackPanel>
+    <StackPanel x:Name="sPanel">
         <StackPanel Orientation="Horizontal">
             <Label x:Name="lbName" Content="이름" Width="50"/>
-            <TextBox x:Name="tbName" Width="100" Background="Aqua" />
+            <TextBox x:Name="tbName" Text="{Binding Path=Name}"  Width="100" Background="Aqua" />
             <Label x:Name="lbNick" Content="별명" Width="50"/>
-            <TextBox x:Name="tbNick" Width="100" Background="Aqua"/>
+            <TextBox x:Name="tbNick" Text="{Binding Path=Nick}" Width="100" Background="Aqua"/>
             <Button x:Name="btnAdd" Width="100" Content="추가" Click="btnAdd_Click"/>
         </StackPanel>
-        <ListBox x:Name="lBox" Width="400" Height="294" Background="Bisque" HorizontalAlignment="Left">
-            
+        <ListBox x:Name="lBox" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" Width="400" Height="294" Background="Bisque" HorizontalAlignment="Left">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock Text="{Binding Path=Name}" />:
+                        <TextBlock Text="{Binding Path=Nick}" />
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
         </ListBox>
     </StackPanel>
 </Window>
